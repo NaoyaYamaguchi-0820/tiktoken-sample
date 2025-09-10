@@ -1,7 +1,7 @@
 import tiktoken
 
 # モデルに対応したエンコーディングを取得
-encoding = tiktoken.encoding_for_model("gpt-4")
+encoding = tiktoken.encoding_for_model("gpt-4o")
 
 # テキストをトークン化してカウント
 text = "情報を見つけるのに役立つ AI アシスタントです。"
